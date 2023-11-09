@@ -10,6 +10,7 @@ import Cta_Section from '../Components/Main/Cta_Section';
 import Produtos from '../Components/Main/Produtos';
 import Contato from '../Components/Main/Contato';
 import VoltaHome from '../Components/Buttons/VoltaHome';
+import Busway_Section from '../Components/Main/Busway_Section';
 
 export default function Home(){
     return(
@@ -21,6 +22,7 @@ export default function Home(){
 <Vantagens/>
 <Clientes/>
 <Services/>
+<Busway_Section/>
 <Cta_Section/>
 <Produtos/>
 <Contato/>

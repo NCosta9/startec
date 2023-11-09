@@ -41,7 +41,7 @@ export default function Contato() {
 
           <div className="section-title">
             <span>Contato</span>
-            <h2>Contato</h2>
+            <h1>Contato</h1>
             <p>Fale conosco em um dos canais de atendimento ao cliente abaixo para solicitar seu orçamento</p>
           </div>
 

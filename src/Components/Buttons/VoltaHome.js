@@ -5,9 +5,9 @@ function VoltaHome() {
     return (
         <>
 
-            <div class="position-relative">
-                <div class=" bottom-0 end-0 mb-3 me-3 zindex-sticky fixed-bottom">
-                    <div class="float-end">
+            <div className="position-relative">
+                <div className=" bottom-0 end-0 mb-3 me-3 zindex-sticky fixed-bottom">
+                    <div className="float-end">
 
                         <AnchorLink href="#navbar" >
                             <div className="bg-red p-2">

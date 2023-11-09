@@ -453,8 +453,15 @@ body {
   
   #hero h2 {
     color: #eee;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     font-size: 24px;
+  }
+  #hero h3 {
+    color: #fff;
+    font-size: 20px;
+  }
+  #hero h3 span {
+    border-bottom: 2px solid #cc1616;
   }
   
   #hero .btn-get-started {
@@ -516,7 +523,7 @@ body {
     position: relative;
   }
   
-  .section-title h2 {
+  .section-title h1 {
     font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
@@ -641,7 +648,8 @@ body {
   }
   
   .clients img {
-    width: 50%;
+    max-width: 50%;
+    border-radius: 50%;
     /* filter: grayscale(100); */
     transition: all 0.4s ease-in-out;
     display: inline-block;
@@ -722,9 +730,9 @@ width: 40%;
     color: #191919;
   }
   
-  .services .icon-box p {
+  .services .icon-box p li {
     line-height: 24px;
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 0;
   }
   
@@ -747,7 +755,8 @@ width: 40%;
   }
   
   .services .icon-box:hover h4 a,
-  .services .icon-box:hover p {
+  .services .icon-box:hover p ,
+  .services .icon-box:hover li {
     color: #fff;
   }
   
@@ -968,11 +977,17 @@ width: 40%;
   --------------------------------------------------------------*/
   .pricing .box {
     padding: 20px;
-    background: #f9f9f9;
+    background: transparent;
     text-align: center;
     border-radius: 8px;
     position: relative;
     overflow: hidden;
+    border: 1px solid #000
+  }
+
+  .pricing .box img{
+    width: 100%;
+    max-height: 10rem;
   }
   
   .pricing .box h3 {
@@ -1455,4 +1470,15 @@ width: 40%;
   }
 .bg-red{
   background-color: #cc1616;
+}
+
+.divider {
+  margin-top: 0;
+	border:3px solid #cc1616;
+	display:inline-block;
+	width: 10%;
+}
+
+.border-red{
+  border-bottom: 2px solid #cc1616;
 }

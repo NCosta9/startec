@@ -7,11 +7,11 @@ export default function Vantagens() {
 
                 <div className="row">
 
-                    <div className="col-lg-4" data-aos="fade-up">
+                    <div className="col-lg-4 " data-aos="fade-up">
                         <div className="box">
                             <span>01</span>
                             <h4>Flexibilidade</h4>
-                            <p>O Busway permite uma distribuição de energia flexível, permitindo ajustes rápidos de layout e expansão.</p>
+                            <p>O Barramento Blindado permite uma distribuição de energia flexível, permitindo ajustes rápidos de layout e expansão.</p>
                         </div>
                     </div>
 
@@ -27,7 +27,7 @@ export default function Vantagens() {
                         <div className="box">
                             <span>03</span>
                             <h4> Segurança</h4>
-                            <p>O Busway é projetado com recursos de segurança, como proteção contra sobrecarga e curto-circuito.</p>
+                            <p>O Barramento Blindado é projetado com recursos de segurança, como proteção contra sobrecarga e curto-circuito.</p>
                         </div>
                     </div>
 

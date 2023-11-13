@@ -6,35 +6,141 @@ export default function Clientes() {
         <>
             <div className="section-title">
                 <span>Clientes</span>
-                <h1>Nossos Clientes</h1>
-          <hr class="divider"/>
+                <h3>Nossos Clientes</h3>
+                <hr className="divider" />
 
             </div>
 
             <section id="clients" className="clients">
-                <div className="container" data-aos="zoom-in">
 
-                    {/* <div className="row d-flex align-items-center">
+                <div className="container" data-aos="fade-up">
+                    <div className="row gy-5">
 
-                        {[
-                            'https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/startec/clientes/allegro.png',
-                            'https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/startec/clientes/duo.png',
-                            'https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/startec/clientes/lux.png',
-                            'https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/startec/clientes/wish-bellavista.png',
-                            'https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/startec/clientes/wish-coimbra.png',
-                            'https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/startec/clientes/wish.png',
-
-                        ].map((descktop) => (
-                            <div className="col-lg-2 col-md-4 col-6">
-                                <img src={descktop.toLowerCase()} className="img-fluid" alt="" />
+                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="clients-item">
+                                <div className="img">
+                                   <div className="image" >
+                                    <div className="image-1"></div>
+                                   </div>
+                                </div>
+                                <div className="details position-relative">
+                                    <div className="icon">
+                                        <i className="bi bi-activity"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="m5.825 22l1.625-7.025L2 10.25l7.2-.625L12 3l2.8 6.625l7.2.625l-5.45 4.725L18.175 22L12 18.275L5.825 22Z"/></svg></i>
+                                    </div>
+                                    <a href="#" className="stretched-link">
+                                        <h3>E-Business</h3>
+                                    </a>
+                                    <p>Aparecida de Goiânia - GO</p>
+                                </div>
                             </div>
+                        </div>
+                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="clients-item">
+                                <div className="img">
+                                   <div className="image" >
+                                    <div className="image-2"></div>
+                                   </div>
+                                </div>
+                                <div className="details position-relative">
+                                    <div className="icon">
+                                    <i className="bi bi-activity"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="m5.825 22l1.625-7.025L2 10.25l7.2-.625L12 3l2.8 6.625l7.2.625l-5.45 4.725L18.175 22L12 18.275L5.825 22Z"/></svg></i>
 
-                        ))}
+                                    </div>
+                                    <a href="#" className="stretched-link">
+                                        <h3>Lux Flamboyant</h3>
+                                    </a>
+                                    <p>Goiânia - GO</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="clients-item">
+                                <div className="img">
+                                   <div className="image" >
+                                    <div className="image-3"></div>
+                                   </div>
+                                </div>
+                                <div className="details position-relative">
+                                    <div className="icon">
+                                    <i className="bi bi-activity"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="m5.825 22l1.625-7.025L2 10.25l7.2-.625L12 3l2.8 6.625l7.2.625l-5.45 4.725L18.175 22L12 18.275L5.825 22Z"/></svg></i>
+
+                                    </div>
+                                    <a href="#" className="stretched-link">
+                                        <h3>DUO Residence & Mall</h3>
+                                    </a>
+                                    <p>Águas Claras - DF</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="clients-item">
+                                <div className="img">
+                                   <div className="image" >
+                                    <div className="image-4"></div>
+                                   </div>
+                                </div>
+                                <div className="details position-relative">
+                                    <div className="icon">
+                                    <i className="bi bi-activity"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="m5.825 22l1.625-7.025L2 10.25l7.2-.625L12 3l2.8 6.625l7.2.625l-5.45 4.725L18.175 22L12 18.275L5.825 22Z"/></svg></i>
+
+                                    </div>
+                                    <a href="#" className="stretched-link">
+                                        <h3>Wish Aeroporto</h3>
+                                    </a>
+                                    <p>Goiânia - GO</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="clients-item">
+                                <div className="img">
+                                   <div className="image" >
+                                    <div className="image-5"></div>
+                                   </div>
+                                </div>
+                                <div className="details position-relative">
+                                    <div className="icon">
+                                    <i className="bi bi-activity"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="m5.825 22l1.625-7.025L2 10.25l7.2-.625L12 3l2.8 6.625l7.2.625l-5.45 4.725L18.175 22L12 18.275L5.825 22Z"/></svg></i>
+
+                                    </div>
+                                    <a href="#" className="stretched-link">
+                                        <h3>Wish Bella Vista</h3>
+                                    </a>
+                                    <p>Goiânia - GO</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="clients-item">
+                                <div className="img">
+                                   <div className="image" >
+                                    <div className="image-6"></div>
+                                   </div>
+                                </div>
+                                <div className="details position-relative">
+                                    <div className="icon">
+                                    <i className="bi bi-activity"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="m5.825 22l1.625-7.025L2 10.25l7.2-.625L12 3l2.8 6.625l7.2.625l-5.45 4.725L18.175 22L12 18.275L5.825 22Z"/></svg></i>
+
+                                    </div>
+                                    <a href="#" className="stretched-link">
+                                        <h3>Wish Coimbra</h3>
+                                    </a>
+                                    <p>Goiânia - GO</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
 
 
 
 
-                    </div> */}
+            {/* <div className="container" data-aos="zoom-in">
+
+               
 
 
                     <div className="row">
@@ -70,7 +176,7 @@ export default function Clientes() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }

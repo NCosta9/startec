@@ -8,7 +8,7 @@ export default function Cta_Section(){
 
         <div className="text-center">
           <h3>Fale Conosco</h3>
-          <p>Estamos prontos para ajudar sua empresa a implementar soluções de Busway de alta qualidade. Entre em contato conosco para obter mais informações ou solicitar uma cotação.</p>
+          <p>Estamos prontos para ajudar sua empresa a implementar soluções de Barramento Blindado de alta qualidade. Entre em contato conosco para obter mais informações ou solicitar uma cotação.</p>
           <AnchorLink className="cta-btn" href="#contact">Solicitar Orçamento</AnchorLink>
         </div>
 

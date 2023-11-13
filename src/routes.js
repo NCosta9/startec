@@ -1,8 +1,9 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
-import Home from './Pages/Home';
 import EmailFailed from './errors/EmailFailed';
 import EmailSucesso from './errors/EmailSucesso';
+import Home from './Pages/Home';
+import HomeBlog from './Pages/HomeBlog';
 
 
 
@@ -15,7 +16,7 @@ function RoutesApp() {
                 <Route path="/" element={<Home />} />
                 <Route path="/sucesso" element={ <EmailSucesso/> } />
                 <Route path="/error" element={ <EmailFailed/> } />
-
+                <Route path="/10-vantagens-de-usar-busway-barramento-blindado" element={<HomeBlog/>}/>
             </Routes>
 
         </HashRouter>

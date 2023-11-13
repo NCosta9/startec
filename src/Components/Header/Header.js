@@ -1,5 +1,5 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import '../../index.css'
+import '../../globals.css'
 
 
 export default function Header() {
@@ -26,8 +26,10 @@ export default function Header() {
 
       <header id="header" className="d-flex align-items-center">
         <div className="container d-flex align-items-center justify-content-between">
-          <a href="/home" className="logo"><img src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/startec/logo/logo-branca.png" alt="" className="logo" /></a>
-          <h1 className="logo"><a href="/home">Startec</a></h1>
+          <a href="/home" className="navbar-brand logo"><img src="https://dlzumwzvsvpdqblhfoof.supabase.co/storage/v1/object/public/startec/logo/logo-branca.png" alt="" className=" d-inline-block mx-1" />
+        <span className='text-center text-light'> Startec </span> 
+          </a>
+          
 
           <nav id="navbar" className="navbar">
             <ul>

@@ -1,4 +1,4 @@
-import '../../index.css';
+import '../../globals.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 

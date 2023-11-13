@@ -8,7 +8,7 @@ export default function Produtos() {
 
                     <div className="section-title">
                         <span>Produtos</span>
-                        <h1>Produtos</h1>
+                        <h3>Produtos</h3>
                         <p>Experimente a revolução em eficiência energética com nosso busway de última geração. Um passo à frente da concorrência.</p>
                     </div>
 
